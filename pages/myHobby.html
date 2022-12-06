@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Сайт визитка</title>
+    <title>Мои хобби</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/nav.css">
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/slideshow.css">
     <link rel="stylesheet" href="../styles/contentWrapperMyHobby.css">
+    <link rel="stylesheet" href="../styles/playlist.css">
 </head>
 <body>
 <div class="container">
@@ -32,6 +33,22 @@
 
     <!-- Content -->
     <div class="content-wrapper">
+        <h3>Музыка</h3>
+        <p>Наверное самое неожиданное для меня хобби. Подумать только, раньше до 16 лет я совсем не слушал музыку,
+            потому что она меня сбивала, да и неверное просто не мог найти свой жанр. После 16 я начал слушать рок, что
+            изменило мой привычный ритм жизни. Отныне я делаю что-то под музыку. Наверное самый большой прорыв в этом
+            увлечении произошёл год назад, когда я записался в музыкальную школу, где изучал нотную грамоту и практику
+            игры на гитаре.</p>
+        <p>Пожалуй оставлю здесь несколько моих самых любимых песен...</p>
+        <div class="playlist">
+            <div class="song">ДДТ - Что такое осень</div>
+            <audio class="audio" src="../audio/ДДТ - Что такое осень.mp3"></audio>
+            <div class="buttons">
+                <div><img class="icon prevBtn" src="../images/icons/prev.png"></div>
+                <div><img class="icon imgSrc playBtn" src="../images/icons/play.png"></div>
+                <div><img class="icon nextBtn" src="../images/icons/next.png"></div>
+            </div>
+        </div>
         <h3>Counter-Strike: Global Offensive</h3>
         <p>В Counter-Strike я начал играть ещё в детстве, когда мне было 12. Когда я начинал, то играл на очень низком
             уровне, что мне не нравилось, поэтому я загорелся стать лучше. Больше всего я играл в неё в те годы. Каждый
@@ -113,6 +130,7 @@
     </div>
 
     <script src="../scripts/slideshow.js"></script>
+    <script src="../scripts/playlist.js"></script>
 
 </div>
 </body>
