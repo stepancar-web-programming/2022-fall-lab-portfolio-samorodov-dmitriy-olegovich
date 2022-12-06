@@ -1,0 +1,24 @@
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: rgba(4,4,4,0.63);
+}
+
+.nav li {
+    display: flex;
+}
+
+.nav li a {
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    color: lightgray;
+    font-weight: bold;
+    border-right: lightgray solid 1px;
+    transition: background 0.3s ease;
+}
+
+.nav li a:hover {
+    background: rgba(4,4,4,0.3);
+}

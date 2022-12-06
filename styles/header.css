@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") no-repeat center center / cover;
+    color: white;
+}
+
+.user-pic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url("https://sun9-west.userapi.com/sun9-71/s/v1/ig2/DaXq_vyZIsVRFIYRPkLQCZiRDX3puFcUU6rVLpKDWaCPgBhU8cv4Jb-sklCJQ7BVMjH91PEK9SaAmG023C2K6ocs.jpg?size=960x1280&quality=96&type=album") no-repeat center center / cover;
+    margin-left: 10px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
