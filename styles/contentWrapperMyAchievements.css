@@ -1,0 +1,16 @@
+.content-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-wrapper ul {
+    list-style-type: none;
+    border-radius: 30px;
+    background-color: gray;
+    color: white;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
