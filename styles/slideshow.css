@@ -1,6 +1,6 @@
 * {box-sizing:border-box}
 
-.dotBlock {
+.dot-block {
     margin: 5px;
 }
 
@@ -10,7 +10,7 @@
     margin: auto;
 }
 
-.mySlides {
+.my-slides {
     display: none;
 }
 
@@ -84,7 +84,7 @@
     animation-duration: 1.5s;
 }
 
-.slideshowPanel {
+.slideshow-panel {
     max-width: 1000px;
     position: relative;
     margin: auto;
