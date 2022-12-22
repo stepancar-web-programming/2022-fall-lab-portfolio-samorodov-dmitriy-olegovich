@@ -6,13 +6,6 @@
     padding: 0;
 }
 
-#text {
-    margin: auto;
-    font-size: 0.9em;
-    font-weight: bold;
-    opacity: 0.5;
-}
-
 .footer ul li img {
     width: 32px;
     height: 32px;
