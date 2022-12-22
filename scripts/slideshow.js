@@ -1,4 +1,4 @@
-let slideIndex = 1;
+let activeSlideIndex = 1;
 let periodTime = 0;
 let curInterval;
 
@@ -12,8 +12,8 @@ function timer() {
     periodTime = time.value;
     if (curInterval == null) {
       curInterval = setInterval(() => {
-        showSlide(slideIndex);
-        slideIndex++;
+        showSlide(activeSlideIndex);
+        activeSlideIndex++;
       }, periodTime * 1000);
     }
   }
@@ -25,11 +25,11 @@ function stopSlideshow() {
 }
 
 function plusSlides(n) {
-  showSlide(slideIndex += n);
+  showSlide(activeSlideIndex += n);
 }
 
 function currentSlide(n) {
-  showSlide(slideIndex = n);
+  showSlide(activeSlideIndex = n);
 }
 
 function showSlide(n) {
@@ -37,10 +37,10 @@ function showSlide(n) {
   const slides = document.getElementsByClassName('my-slides');
   const dots = document.getElementsByClassName('dot');
   if (n > slides.length) {
-    slideIndex = 1;
+    activeSlideIndex = 1;
   }
   if (n < 1) {
-    slideIndex = slides.length;
+    activeSlideIndex = slides.length;
   }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = 'none';
@@ -48,8 +48,8 @@ function showSlide(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(' active', '');
   }
-  slides[slideIndex - 1].style.display = 'block';
-  dots[slideIndex - 1].className += ' active';
+  slides[activeSlideIndex - 1].style.display = 'block';
+  dots[activeSlideIndex - 1].className += ' active';
 }
 
-showSlide(slideIndex);
+showSlide(activeSlideIndex);
