@@ -17,3 +17,10 @@
 .footer ul li img:hover {
     opacity: 1;
 }
+
+.footer ul li:first-child {
+    margin: auto;
+    font-size: 0.9em;
+    font-weight: bold;
+    opacity: 0.5;
+}
