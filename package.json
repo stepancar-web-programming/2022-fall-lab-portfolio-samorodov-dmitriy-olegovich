@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-samorodov-dmitriy-olegovich/issues"
   },
-  "homepage": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-samorodov-dmitriy-olegovich#readme",
+  "homepage": "https://fed0d.github.io/2022-fall-lab-portfolio-samorodov-dmitriy-olegovich/index.html",
   "devDependencies": {
     "eslint": "^8.30.0",
     "eslint-config-airbnb-base": "^15.0.0",
